@@ -1,12 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:custlr/api/api.dart';
-import 'package:custlr/utils/constants.dart';
 import 'package:custlr/screen/product_detail/product_detail.dart';
 import 'package:custlr/screen/show_all/show_all.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:shimmer/shimmer.dart';
 
 class NewTopFeatured extends StatelessWidget {
   NewTopFeatured(this.name, this.data, this.alldata);

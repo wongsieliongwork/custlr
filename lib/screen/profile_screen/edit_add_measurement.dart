@@ -1,9 +1,6 @@
-import 'package:custlr/api/addressAPI.dart';
 import 'package:custlr/api/measurementAPI.dart';
-import 'package:custlr/provider/ShoppingPageProvider.dart';
 import 'package:custlr/utils/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 class AddEditMeasurement extends StatefulWidget {
   final dynamic data;

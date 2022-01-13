@@ -1,9 +1,6 @@
 import 'dart:developer';
-
-import 'package:custlr/api/measurementAPI.dart';
 import 'package:custlr/model/measurementModel.dart';
 import 'package:custlr/provider/Measurement.dart';
-import 'package:custlr/provider/ShoppingPageProvider.dart';
 import 'package:custlr/screen/get_fitted/body_measurement.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -141,7 +138,6 @@ class _StandardSizingState extends State<StandardSizing> {
   int value = 0;
   @override
   Widget build(BuildContext context) {
-    final dataHome = Provider.of<ShoppingPageProvider>(context);
     final dataMeasure = Provider.of<Measurement>(context);
     final measureList = dataMeasure.productMeasurement;
 

@@ -1,14 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:custlr/api/cartAPI.dart';
 import 'package:custlr/widget/showDialog.dart';
-import 'package:custlr/utils/constants.dart';
 import 'package:custlr/provider/ShoppingPageProvider.dart';
 import 'package:custlr/provider/Measurement.dart';
 import 'package:custlr/provider/viewcartProvider.dart';
-import 'package:custlr/screen/MainTabBar/main_tab_bar.dart';
 import 'package:custlr/screen/auth/login_register.dart';
-import 'package:custlr/screen/shopping_screen/shopping_screen.dart';
-import 'package:custlr/screen/payment_gateway/payment_gateway.dart';
 import 'package:custlr/screen/view_cart/view_cart.dart';
 import 'package:custlr/utils/shared_preference_utils.dart';
 import 'package:custlr/widget/loading.dart';
@@ -16,7 +12,6 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:dio/dio.dart' as dio;
 import 'package:path/path.dart';
 

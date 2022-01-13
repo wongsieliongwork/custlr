@@ -1,9 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:custlr/api/measurementAPI.dart';
 import 'package:custlr/widget/showDialog.dart';
 import 'package:custlr/provider/Measurement.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';

@@ -2,7 +2,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:custlr/api/blogAPI.dart';
 import 'package:custlr/screen/blog/blog_detail.dart';
 import 'package:custlr/screen/blog/blog_see_all.dart';
-import 'package:custlr/widget/loading.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 

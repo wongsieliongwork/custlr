@@ -1,5 +1,4 @@
 import 'package:custlr/api/blogAPI.dart';
-import 'package:custlr/utils/constants.dart';
 import 'package:custlr/widget/loading.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';

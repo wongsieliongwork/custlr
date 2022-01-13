@@ -2,7 +2,6 @@ import 'package:custlr/api/cartAPI.dart';
 import 'package:custlr/screen/payment_gateway/payment_gateway.dart';
 import 'package:custlr/widget/loading.dart';
 import 'package:flutter/material.dart';
-import 'package:rflutter_alert/rflutter_alert.dart';
 
 class OrderScreen extends StatefulWidget {
   @override

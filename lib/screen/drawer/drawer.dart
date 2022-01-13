@@ -2,7 +2,6 @@ import 'package:custlr/provider/ShoppingPageProvider.dart';
 import 'package:custlr/utils/shared_preference_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class CustlrDrawer extends StatefulWidget {
   @override
@@ -42,7 +41,6 @@ class _CustlrDrawerState extends State<CustlrDrawer> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     sharedPreferences();
   }

@@ -1,27 +1,18 @@
-import 'package:badges/badges.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:custlr/api/api.dart';
-import 'package:custlr/api/authAPI.dart';
-import 'package:custlr/utils/constants.dart';
 import 'package:custlr/provider/ShoppingPageProvider.dart';
 import 'package:custlr/provider/viewcartProvider.dart';
-import 'package:custlr/screen/auth/login_register.dart';
 import 'package:custlr/screen/drawer/drawer.dart';
 import 'package:custlr/screen/shopping_screen/new_top_featured.dart';
 import 'package:custlr/screen/product_detail/product_detail.dart';
 import 'package:custlr/screen/show_all/show_all.dart';
 import 'package:custlr/screen/view_cart/view_cart.dart';
 import 'package:custlr/utils/shared_preference_utils.dart';
-import 'package:custlr/widget/loading.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:material_floating_search_bar/material_floating_search_bar.dart';
 import 'package:provider/provider.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:shimmer/shimmer.dart';
 
 class ShoppingScreen extends StatefulWidget {

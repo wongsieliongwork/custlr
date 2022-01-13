@@ -1,4 +1,3 @@
-import 'package:custlr/common/dynamic_link_service.dart';
 import 'package:custlr/provider/Measurement.dart';
 import 'package:custlr/screen/product_detail/checkout.dart';
 import 'package:custlr/screen/product_detail/get_fitted.dart';

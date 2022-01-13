@@ -2,7 +2,6 @@ import 'package:custlr/api/authAPI.dart';
 import 'package:custlr/widget/loading.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class ChangePassword extends StatefulWidget {
   @override

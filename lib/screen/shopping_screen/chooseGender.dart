@@ -1,8 +1,6 @@
 import 'package:custlr/utils/constants.dart';
 import 'package:custlr/provider/ShoppingPageProvider.dart';
-import 'package:custlr/common/dynamic_link_service.dart';
 import 'package:custlr/screen/MainTabBar/main_tab_bar.dart';
-import 'package:custlr/screen/shopping_screen/shopping_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

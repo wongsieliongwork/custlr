@@ -1,5 +1,4 @@
 import 'dart:developer';
-
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:custlr/api/api.dart';
@@ -31,7 +30,6 @@ import 'package:path/path.dart';
 import 'dart:ui' as ui;
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:http/http.dart' as http;
-import 'package:shared_preferences/shared_preferences.dart';
 
 class SelectProduct extends StatefulWidget {
   SelectProduct(
