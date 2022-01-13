@@ -1,8 +1,6 @@
 import 'dart:io';
-
 import 'package:custlr/api/authAPI.dart';
 import 'package:custlr/common/dynamic_link_service.dart';
-import 'package:custlr/utils/constants.dart';
 import 'package:custlr/screen/auth/forgot_password.dart';
 import 'package:custlr/widget/loading.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
