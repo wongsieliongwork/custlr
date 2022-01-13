@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "272214780239",
+    "project_id": "custlr-app-69c69",
+    "storage_bucket": "custlr-app-69c69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272214780239:android:7293072886106d34637d3a",
+        "android_client_info": {
+          "package_name": "com.custlr.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272214780239-eemel7r04cbe34i4ee54ietpoma1f7ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO93qGQhpNm9BdN0O1gMknMWEt4sh2Mf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272214780239-eemel7r04cbe34i4ee54ietpoma1f7ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
