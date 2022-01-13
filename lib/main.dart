@@ -103,7 +103,7 @@ class _MyAppState extends State<MyApp> {
               appBarTheme: AppBarTheme(
                 elevation: 0,
                 color: Colors.transparent,
-                titleTextStyle: TextStyle(backgroundColor: Colors.black),
+                titleTextStyle: TextStyle(backgroundColor: Colors.transparent),
                 iconTheme: IconThemeData(
                   color: Colors.black,
                 ),
