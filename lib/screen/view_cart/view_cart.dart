@@ -1,23 +1,12 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:custlr/api/addressAPI.dart';
 import 'package:custlr/api/cartAPI.dart';
 import 'package:custlr/model/measurementModel.dart';
-import 'package:custlr/provider/Measurement.dart';
-import 'package:custlr/provider/viewcartProvider.dart';
-import 'package:custlr/screen/drawer/my_addresses.dart';
 import 'package:custlr/screen/get_fitted/body_measurement.dart';
-import 'package:custlr/screen/payment_gateway/payment_gateway.dart';
-import 'package:custlr/screen/product_detail/product_detail.dart';
 import 'package:custlr/screen/view_cart/address_widget.dart';
 import 'package:custlr/screen/view_cart/cart_widget.dart';
 import 'package:custlr/screen/view_cart/checkout_widget.dart';
 import 'package:custlr/widget/loading.dart';
-import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
-import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-import 'package:provider/provider.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 class ViewCart extends StatefulWidget {

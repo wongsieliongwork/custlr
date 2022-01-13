@@ -1,7 +1,6 @@
 import 'package:custlr/utils/constants.dart';
 import 'package:custlr/widget/dioError.dart';
 import 'package:dio/dio.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:custlr/utils/shared_preference_utils.dart';
 
 class CartAPI {

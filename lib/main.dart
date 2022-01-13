@@ -1,8 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:custlr/api/api.dart';
-import 'package:custlr/api/authAPI.dart';
 import 'package:custlr/common/dynamic_link_service.dart';
-import 'package:custlr/utils/constants.dart';
 import 'package:custlr/provider/ShoppingPageProvider.dart';
 import 'package:custlr/provider/Measurement.dart';
 import 'package:custlr/provider/viewcartProvider.dart';
@@ -16,7 +12,6 @@ import 'package:custlr/screen/profile_screen/order_screen.dart';
 import 'package:custlr/screen/profile_screen/privacy_policy.dart';
 import 'package:custlr/screen/shopping_screen/chooseGender.dart';
 import 'package:custlr/screen/drawer/edit_profile.dart';
-import 'package:custlr/testing.dart';
 import 'package:custlr/utils/shared_preference_utils.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -24,7 +19,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp();
