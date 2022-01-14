@@ -251,6 +251,16 @@ class AuthAPI {
     );
     var data = response.data;
     print("GET User LIST_________ $data");
+    pref.setString('UserID', data['UserID'].toString());
+    pref.setString('first_name', data['first_name']);
+    pref.setString('last_name', data['last_name']);
+    pref.setString('contact_no', data['contact_no']);
+    pref.setString('email', data['email']);
+    pref.setString('gender', data['gender']);
+    pref.setInt('default_address_id', data['default_address_id']);
+    pref.setString('active', data['active']);
+    pref.setString('created_at', data['created_at']);
+    pref.setString('updated_at', data['updated_at']);
     SharedPreferencesUtil.userId = data['UserID'].toString();
     SharedPreferencesUtil.firstName = data['first_name'];
     SharedPreferencesUtil.userId = data['UserID'].toString();
@@ -262,16 +272,6 @@ class AuthAPI {
     SharedPreferencesUtil.active = data['active'];
     SharedPreferencesUtil.createdAt = data['created_at'];
     SharedPreferencesUtil.updatedAt = data['updated_at'];
-    pref.setString('UserID', data['UserID'].toString());
-    pref.setString('first_name', data['first_name']);
-    pref.setString('last_name', data['last_name']);
-    pref.setString('contact_no', data['contact_no']);
-    pref.setString('email', data['email']);
-    pref.setString('gender', data['gender']);
-    pref.setInt('default_address_id', data['default_address_id']);
-    pref.setString('active', data['active']);
-    pref.setString('created_at', data['created_at']);
-    pref.setString('updated_at', data['updated_at']);
 
     return data;
   }
